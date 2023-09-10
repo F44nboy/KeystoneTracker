@@ -6,7 +6,4 @@
 ## SavedVariables: KeystoneTrackerDB
 
 
-Libs\AceAddon-3.0\AceAddon-3.0.lua
-
-
 Main.lua
