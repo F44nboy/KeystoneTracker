@@ -1,0 +1,27 @@
+{
+    "Lua.diagnostics.globals": [
+        "StaticPopupDialogs",
+        "YES",
+        "NO",
+        "SlashCmdList",
+        "InterfaceOptionsFrame_OpenToCategory",
+        "StaticPopup_Show",
+        "DEFAULT_CHAT_FRAME",
+        "InterfaceOptions_AddCategory",
+        "LE_PARTY_CATEGORY_INSTANCE",
+        "PVEFrame_ShowFrame",
+        "LFGListEntryCreation_Show",
+        "LFGListEntryCreation_Select",
+        "LFGListPVEStub",
+        "LFGListFrame",
+        "HandleModifiedItemClick",
+        "ERR_FRIEND_OFFLINE_S",
+        "ReloadUI",
+        "MouseIsOver",
+        "GetCursorPosition",
+        "HelpPlate_Hide",
+        "UISpecialFrames",
+        "HelpPlate_Show",
+        "HelpPlate_IsShowing"
+    ]
+}
