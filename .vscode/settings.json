@@ -22,6 +22,9 @@
         "HelpPlate_Hide",
         "UISpecialFrames",
         "HelpPlate_Show",
-        "HelpPlate_IsShowing"
+        "HelpPlate_IsShowing",
+        "message",
+        "GameFontNormalLeft",
+        "GameFontNormal"
     ]
 }
