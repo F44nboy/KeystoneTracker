@@ -1,8 +1,15 @@
+--Behaviour and Gui related stuff of the main window
+
 local addonName, nameSpace = ... --Namespace
 nameSpace.Main = {}
 
 local Main = nameSpace.Main
 local UIMain
+
+
+
+local keyStoneLevel = C_MythicPlus.GetOwnedKeystoneLevel()
+local mapID = C_MythicPlus.GetOwnedKeystoneMapID()
 
 
 function Main:Toggle()
@@ -29,8 +36,6 @@ function Main:CreateFrame()
   --Fontstring
   local statusText = UIMain:CreateFontString(nil,"OVERLAY", "GameFontNormal")
   statusText:SetPoint("CENTER")
-  statusText:SetText("Testing")
-
 
   UIMain:Hide()
   return UIMain
@@ -38,21 +43,6 @@ function Main:CreateFrame()
 end
 
 
-
-
-
-
-local mapNames = {
-    [657] = "Vortex Pinnacle",
-    [1458] = "Neltharions Lair",
-    [1754] = "Freehold",
-    [1841] = "Underrot",
-    [2451] = "Uldaman: Legacy of Tyr",
-    [2519] = "Neltharus",
-    [2520] = "Brackenhide Hollow",
-    [2527] = "Halls of Infusion"
-
-  }
 
 --statusText:SetText("Keystonelevel: " ..keyStoneLevel.. "KeystoneMap:" ..mapNames[mapID])
 --print("Keystonelevel: " ..keyStoneLevel.. "KeystoneMap:" ..mapNames[mapID] )

@@ -1,4 +1,4 @@
-
+--Behaviour and Gui related stuff of the config window
 -- Namespaces
 local addonName, nameSpace = ...
 nameSpace.Config = {}

@@ -3,7 +3,7 @@
 ## Notes: Addon for tracking keystones
 ## Author: Milan Berlik
 ## Version: 0.1
-## SavedVariables: KeystoneTrackerDB
+## SavedVariables: keystoneTrackerDB
 
 KSTConfig.lua
 KSTMain.lua
